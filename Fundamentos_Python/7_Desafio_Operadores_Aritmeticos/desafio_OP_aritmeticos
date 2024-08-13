@@ -1,0 +1,6 @@
+salario = 3450.45
+despesas = 2456.2
+
+#Resposta
+percentual_comprometido = (despesas / salario) * 100
+print(f'O percentual comprometido é de {percentual_comprometido:.2f}%')
