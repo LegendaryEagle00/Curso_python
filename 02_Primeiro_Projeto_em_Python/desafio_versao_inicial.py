@@ -1,4 +1,6 @@
-pi = 3.14
-raio = 15
-area = pi * (raio ** 2)
-print('Área do círculo:', area)
+import math
+
+raio = float(input('Informe o raio: '))
+area = math.pi * (raio ** 2)
+
+print(f'Área do círculo: {area:.2f}')
