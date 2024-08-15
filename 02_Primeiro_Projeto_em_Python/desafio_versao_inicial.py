@@ -1,6 +1,7 @@
 import math
 
-raio = float(input('Informe o raio: '))
-area = math.pi * (raio ** 2)
+def area_circulo(raio):
+    return math.pi * (raio ** 2)
 
-print(f'Área do círculo: {area:.2f}')
+raio = float(input('Informe o raio: '))
+print(f'Área do círculo: {area_circulo(raio)}')
